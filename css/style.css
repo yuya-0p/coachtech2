@@ -75,13 +75,13 @@
 }
 /* mission */
 #mission{
-  height: 750px;
+  height: 730px;
   background-color: #fff;
   position: relative;
 }
 .mission-wrap{
   background: #000;
-  width: 600px;
+  height: 520px;
 }
 .mission-left{
   position: absolute;
@@ -113,4 +113,109 @@
   background: #fff;
   color: #000;
   padding: 10px 24px;
+  text-decoration: none;
+}
+/* service */
+#service{
+  height: 1700px;
+  background-color: #dddddd;
+  position: relative;
+}
+.service-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+.service-1{
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 16%;
+  left: 30%;
+  transform: translate(-16%,-30%);
+  z-index: 10;
+}
+.service-wrap{
+  margin-left: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.service-1 h3,p{
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.service-1 h3{
+  font-weight: bold;
+}
+.service-button{
+  position: relative;
+  left: 320px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  border: 1px solid;
+  padding: 10px 30px;
+}
+.service-2 img{
+  position: absolute;
+  top: 23%;
+  left: 61%;
+  transform: translate(-23%,-61%);
+  width: 850px;
+  height: 550px;
+  z-index: 5;
+}
+.service-3 img{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-60%,-30%);
+  width: 850px;
+  height: 450px;
+}
+.service-4{
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 49%;
+  left: 58%;
+  transform: translate(-49%,58%);
+}
+.service-wrap2{
+  margin-left: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.service-4 h3,p{
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.service-4 h3{
+  font-weight: bold;
+}
+/* menu */
+#menu{
+  background-color: #fff;
+  height: 900px;
+}
+.company-wrap{
+  background-image: url("../img/company.jpeg");
+  width: 750px;
+  height: 250px;
+}
+.recruit-wrap{
+  background-image: url("../img/recruit.jpg");
+  width: 750px;
+  height: 250px;
+  object-fit: cover;
+}
+.faq-wrap{
+  background-color: black;
+  width: 1200px;
+  height: 100px;
 }
