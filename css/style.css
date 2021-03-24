@@ -207,15 +207,45 @@
   background-image: url("../img/company.jpeg");
   width: 750px;
   height: 250px;
+  background-size: 100% auto;
+  background-position: center;
+}
+.company-content{
+  height: 60px;
+  display: table;
+  text-align: center;
+}
+.company-title{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 .recruit-wrap{
   background-image: url("../img/recruit.jpg");
   width: 750px;
   height: 250px;
-  object-fit: cover;
+  background-size: 100% auto;
+  background-position: center;
+}
+.recruit-title{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
 }
 .faq-wrap{
   background-color: black;
   width: 1200px;
   height: 100px;
+}
+.faq-title{
+  text-decoration: none;
+  color: #fff;
+}
+span{
+  font-size: 36px;
+  font-weight: bold;
 }
